@@ -55,7 +55,7 @@
   border-radius: 5px;
 }
 .mid1 {
-  width: 1500px;
+  width: 1400px;
   height: 620px;
   margin-left:100px;
 
@@ -63,14 +63,15 @@
 .g img {
   width: 550px;
   height: 550px;
-  float: right;
+  float: left;
   margin-top: 20px;
-  margin-right: 50px;
+  
+  
   
 }
 .txt1 {
   margin-top: 20px;
-  width: 900px;
+  width: 800px;
   height: 600px;
 
   float: left;
@@ -320,7 +321,8 @@ p {
   margin-left: 10px;
 
 }
-.sag{width: 600px;
+.sag{
+  width: 600px;
   height: 500px;
   float: left;
   margin-left: 50px;
@@ -373,7 +375,8 @@ border-radius: 15px;
     margin-right: 12.5px;
     border-radius: 50%;
 }
-.s3{color: gray;
+.s3{
+  color: gray;
     width: 200px;
     margin-left: 10px;
     float: left;
@@ -387,9 +390,20 @@ border-radius: 15px;
     margin-left: 250px;
     border-radius: 15px;
 }
+.ss h1{
+font-size: 15px;
+color: gray;
+float: left;
+margin-top:-15px;
+}
+.ss h2{
+  font-size: 20px;
+  margin-left: -55px;
+  float: left;
+}
 .mid4{
     width: 1500px;
-    height: 500px;
+    height: 800px;
     
     float: left;
     margin: 0 auto;
@@ -398,12 +412,13 @@ border-radius: 15px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 100px;
+    margin-right: 10px;
     margin-top:-20px;
+    float: left;
 }
 .ag{
   width: 500px;
-  height: 500px;
+  height: 400px;
  
   float: left;
   margin-left: 100px;
@@ -417,10 +432,12 @@ border-radius: 15px;
 }
 .an{
   width: 500px;
-  height: 500px;
+  height: 400px;
   
   float: left;
   margin-left:300px;
+  
+
 }
 .an img{
   width: 60px;
@@ -435,7 +452,10 @@ border-radius: 15px;
   border-radius: 15px;
   float:left;
   color: gray;
-  margin-top: 100px;
+  margin-top: -300px;
+  z-index: 0;
+  position:absolute;
+  margin-left: -50px;
 
 }
 .an1 h1{
@@ -447,8 +467,55 @@ border-radius: 15px;
 .an11 {
   
   float: left;
-  margin-left: 60px;
-  font-size: 30px;
-  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  margin-top: 20px;
   
 }
+.an12{
+   width: 400px;
+  height: 200px;
+  background-color:azure;
+  border-radius: 15px;
+ 
+  color: gray;
+  margin-left: 100px;
+z-index: 1;
+position:absolute;
+margin-top:100px;
+}
+.an13{
+  width: 200px;
+  height: 100px;
+  margin-top: 150px;
+  margin-left:10px;
+}
+.menu2{
+  width: 1500px;
+  height: 100px;
+  
+  float: left;
+}
+.menu2 ul{
+   width: 1500px;
+  height: 100px;
+  float: left;
+  padding: 0px;
+  list-style-type: none;
+}
+.menu2 ul li{
+  width: 200px;
+  height: 70px;
+
+  float: left;
+  margin-left: 84px;
+  margin-bottom: 20px;
+}
+.menu2 ul li img{
+  width: 200px;
+  height: 70px;
+  
+  float: left;
+ 
+  margin-bottom: 20px;
+} 
